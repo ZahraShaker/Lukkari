@@ -1,0 +1,64 @@
+
+body{
+    background-color: #23232F;
+    color: #FF6660;
+}
+#tiedot {
+    border:solid 2px #FF6660;
+    border-radius: 5px;
+    display: block;
+    padding: 7px;
+    margin: 30px;
+    width: 300px;
+    font-family: 'Courier New', Courier, monospace;
+    color:#FF6660;
+}
+
+#aika {
+    border:solid 2px #FF6660;
+    border-radius: 5px;
+    display: block;
+    padding: 7px;
+    margin: 5%;
+    width: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    
+}
+
+#lukkari {
+    padding: 20px; 
+    display: flex;
+    border: #FF6660 solid 1px;
+    border-radius: 5px;
+    width: 1000px;
+    margin: 50px;
+    padding: 20px;
+}
+
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    width: 150px;
+}
+
+.greenC li {
+    list-style: none;
+    width: 100px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid #23232F;
+    margin-bottom: 10px;
+    background-color: #FF6660;
+    color: #23232F;
+}
+
+.redC li{
+    list-style: none;
+    width: 100px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid #FF6660;
+    margin-bottom: 10px;
+}
