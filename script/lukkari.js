@@ -1,10 +1,12 @@
 
-var maanantai = ['xx1', 'yy1', 'zz1', 'ww1', 'qq1'];
-var tiistai = ['xx2', 'yy2', 'zz2', 'ww2', 'qq2'];
-var keskiviikko = ['xx3', 'yy3', 'zz3', 'ww3', 'qq3'];
-var torstai = ['xx4', 'yy4', 'zz4', 'ww4', 'qq4'];
-var perjantai = ['xx5', 'yy5', 'zz5', 'ww5', 'qq5'];
-var päivät = ['Maanantai', 'Tiistai', 'Keskiviikko', 'Torstai', 'Perjantai'];
+var maanantai = ['1. Tunti', '2. Tunti', '3. Tunti', '4. Tunti', '5. Tunti'];
+var tiistai = ['1. Tunti', '2. Tunti', '3. Tunti', '4. Tunti', '5. Tunti'];
+var keskiviikko = ['1. Tunti', '2. Tunti', '3. Tunti', '4. Tunti', '5. Tunti'];
+var torstai = ['1. Tunti', '2. Tunti', '3. Tunti', '4. Tunti', '5. Tunti'];
+var perjantai = ['1. Tunti', '2. Tunti', '3. Tunti', '4. Tunti', '5. Tunti'];
+var lauantai = ['Vapaa'];
+var sunnuntai = ['Vapaa'];
+var päivät = ['Maanantai', 'Tiistai', 'Keskiviikko', 'Torstai', 'Perjantai', 'Lauantai', 'Sunnuntai'];
 
 function lukkari() {
     let text = "";

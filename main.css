@@ -31,7 +31,7 @@ body{
     display: flex;
     border: #FF6660 solid 1px;
     border-radius: 5px;
-    width: 1000px;
+    width: 1300px;
     margin: 50px;
     padding: 20px;
 }
@@ -39,7 +39,6 @@ body{
 
 h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
     width: 150px;
 }
 
