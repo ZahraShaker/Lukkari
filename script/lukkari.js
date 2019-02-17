@@ -52,7 +52,8 @@ var päivät = ['Maanantai', 'Tiistai', 'Keskiviikko', 'Torstai', 'Perjantai', '
 
 function lukkari() {
     let text = "";
-    i = 1;
+    let i = 1;
+    
     for (let päivä of päivät) {
         text +=
             '<div class="paiva">' +
@@ -78,10 +79,15 @@ function tunnit(päivä) {
 }
 
 function getClass(i) {
+    //console.log(i)
     var aika = new Date();
-    var luokka = 'redC'
-    if (i === aika.getDay()) {
-        luokka = 'greenC'
+    var luokka = 'redC';
+    if (getIndexOfDay(i) === aika.getDay()) {
+        luokka = 'greenC';
     }
     return luokka;
+}
+function getIndexOfDay(i) {    
+       return i === päivät.length ? 0 : i;
+          
 }
