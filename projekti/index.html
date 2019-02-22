@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>8j Lukkari</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+  <div id="sisaan_paasy" class="main-div">
+    <h3>Lukujärjestys</h3>
+    <input type="email" placeholder="Sähköposti..." id="email_field" />
+    <input type="password" placeholder="Salasana..." id="password_field" />
+
+    <button onclick="login()">Login to Account</button>
+  </div>
+
+<div id="luokan_lukkari">
+  <button onclick="logout()">Logout</button>
+  <div id="tiedot">
+    <p id="kayttaja"></p> 
+    <p>Koulu: Suupanniityn Koulu</p>
+    <p>Luokka: 8j</p>
+  </div>
+  
+  <div id="aika">
+  
+  </div>
+  
+  <div id="lukkari">
+  
+  </div>
+
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/5.8.3/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyA6KNxC7FM7_9KWIIuBEO7J1H_aulPQeIs",
+    authDomain: "fir-login-94821.firebaseapp.com",
+    databaseURL: "https://fir-login-94821.firebaseio.com",
+    projectId: "fir-login-94821",
+    storageBucket: "fir-login-94821.appspot.com",
+    messagingSenderId: "574986312377"
+  };
+  firebase.initializeApp(config);
+</script>
+
+<script type="text/javascript" src="script/aika.js"></script>
+<script type="text/javascript" src="script/lukkari.js"></script>
+
+</body>
+</html>
